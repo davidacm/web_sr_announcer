@@ -1,0 +1,48 @@
+{
+  "name": "web_sr_announcer",
+  "version": "1.1.1",
+  "description": "A small utility to send messages to screen readers using aria-live",
+  "repository": "davidacm/web_sr_announcer",
+  "source": "src/webSrAnnouncer.ts",
+  "main": "dist/webSrAnnouncer.js",
+  "module": "dist/webSrAnnouncer.module.js",
+  "unpkg": "dist/webSrAnnouncer.umd.js",
+  "types": "dist/webSrAnnouncer.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/webSrAnnouncer.module.js",
+      "require": "./dist/webSrAnnouncer.js"
+    }
+  },
+  "keywords": [
+    "a11y",
+    "accessibility",
+    "react",
+    "vue",
+    "angular",
+    "html",
+    "screen reader",
+    "aria",
+    "live"
+  ],
+  "scripts": {
+    "check": "npm run -s typecheck && npm run -s lint && npm run -s check:format",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"**\"",
+    "format": "prettier --write \"**\"",
+    "check:format": "prettier --check \"**\"",
+    "build": "microbundle --inline none",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David CM",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "microbundle": "^0.15.1",
+    "prettier": "^3.0.1",
+    "typescript": "^5.1.6"
+  }
+}

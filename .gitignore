@@ -1,0 +1,10 @@
+node_modules
+*.log
+.rts2_cache_*
+dist
+.cache
+example-dist
+coverage
+.nyc_output
+.parcel-cache
+*.code-workspace
