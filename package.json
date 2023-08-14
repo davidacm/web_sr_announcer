@@ -1,7 +1,9 @@
 {
   "name": "web_sr_announcer",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A small utility to send messages to screen readers using aria-live",
+  "author": "David CM <dhf360@gmail.com>",
+  "license": "MIT",
   "repository": "davidacm/web_sr_announcer",
   "source": "src/webSrAnnouncer.ts",
   "main": "dist/webSrAnnouncer.js",

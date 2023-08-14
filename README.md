@@ -2,7 +2,7 @@
 
 A small utility to send messages to screen readers using aria-live
 
-> [See Demo](https://davidacm.github.io/webSrAnnouncer/)
+> [See Demo](https://davidacm.github.io/web_sr_announcer/)
 
 ## Install
 
@@ -23,7 +23,7 @@ Or for a CDN version, you can use it on
 ## Usage
 
 ```js
-import webSrAnnouncer from "webSrAnnouncer" // or use the script tag using cdn.
+import webSrAnnouncer from "web_sr_announcer" // or use the script tag using cdn.
 webSrAnnouncer.initialize()
 
 // just the message is needed.

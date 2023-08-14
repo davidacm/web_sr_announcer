@@ -117,9 +117,9 @@ function announce(
 	}
 }
 
-const srAnnouncer = {
+const webSrAnnouncer = {
 	initialize,
 	terminate,
 	announce,
 }
-export default srAnnouncer
+export default webSrAnnouncer
